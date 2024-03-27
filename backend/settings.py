@@ -69,17 +69,17 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': os.getenv("NAME"),
-        'USER': os.getenv("USER"),
-        'PASSWORD': os.getenv("PASSWORD"),
+        'NAME': 'unihub',
+        'USER': 'postgres',
+        'PASSWORD': 'S3rv3post',
         'HOST': 'localhost',
         'PORT': '5432'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
