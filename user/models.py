@@ -12,6 +12,8 @@ class User(AbstractUser):
     first_name = models.CharField(max_length=255,blank = False)
     last_name = models.CharField(max_length=255,blank = False)
 
+    REQUIRED_FIELDS = ['first_name','last_name','email',]
+
 
 class Profile(models.Model):
     user = models.OneToOneField(user_model,on_delete = models.CASCADE)
