@@ -1,3 +1,8 @@
+.idea/misc.xml
+.idea
+env
+.env
+backend/settings.py
 # Django #
 *.log
 *.pot
