@@ -1,5 +1,5 @@
 .idea/misc.xml
-.idea
+.idea/
 env
 .env
 backend/settings.py
