@@ -10,6 +10,7 @@ backend/settings.py
 __pycache__
 db.sqlite3
 media
+/myenv
 
 # Backup files # 
 *.bak 
