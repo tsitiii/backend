@@ -1,9 +1,11 @@
 from django.http import JsonResponse
 from django.db.models import Q
+
 from rest_framework import status
+from rest_framework.decorators import api_view
+
 from .models import Post
 from .serializers import PostSerializer
-from rest_framework.decorators import api_view
 
 @api_view(['GET'])
 def search_post(request):
